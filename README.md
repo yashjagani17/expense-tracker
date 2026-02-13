@@ -62,15 +62,19 @@ python3 main.py
 
 ## Demo
 **Menu**
+
 ![menu](/assets/menu.png)
 
 **Add Expense**
+
 ![add expense](/assets/add-expense.png)
 
 **View Expenses**
+
 ![view expenses](/assets/view-expenses.png)
 
 **Expense Summary**
+
 ![expenses by category](/assets/expenses-by-category.png)
 
 ## How It Works
