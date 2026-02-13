@@ -1,5 +1,5 @@
 # expense-tracker
-A lightweight Python CLI-based application to track daily spending. This tool allows you to log expenses, categorise them, and view a summary of your spending habits, all stored locally in a CSV file.
+A lightweight Python CLI-based application to track daily expenses. This tool allows you to log expenses, categorise them, and view a summary of your spending habits, all stored locally in a CSV file.
 
 ## Problem Statement
 Create a command‑line application that lets users add, view, and categorize daily expenses.
@@ -7,15 +7,15 @@ Create a command‑line application that lets users add, view, and categorize da
 The program should store transactions (date, amount, category, notes) in a local file (CSV or JSON) and allow users to view a summary of total spending by category.
 
 ## Features
-**Log Expenses**: Quickly add an amount, category, and notes.
+**Add Expenses**: Add an expense using the fields: amount, category, and notes.
 
-**Persistent Storage**: Data is saved to expenses.csv so your history is never lost.
+**Persistent Storage**: Save expenses to a file: expenses.csv (in this case).
 
 **Data Validation**: Provides dynamic feedback to ensure user input matches menu options and formats invalid/empty entries.
 
 **Spending Summary**: View a breakdown of total spending grouped by a user specified category.
 
-**Auto-Formatting**: Automatically handles date/time stamping and currency formatting.
+**Auto-Formatting**: Automatically handles date and timestamp generation and currency formatting.
 
 ## Design Choices
 **Why CSV over JSON?**\
@@ -79,10 +79,10 @@ python3 main.py
 
 ## How It Works
 
-**Add Expense**: Enter the cost, category (e.g., Food, Transport), and an optional note.
+**Add Expense**: Enter the cost, category, and a note to create an expense and save to expenses.csv.
 
-**View Expenses**: Displays a table of all recorded transactions.
+**View Expenses**: Display a table of all transactions from expenses.csv.
 
 **Expenses Summary**: Shows the total amount spent per category.
 
-**Exit**: Saves your data and closes the program.
+**Exit**: Closes the program.
